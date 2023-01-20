@@ -32,7 +32,8 @@ public class ej1 {
 		for (int i = 0; i < numerosEnteros.length; i++) {
 			numerosEnteros[i] = r.nextInt(51);
 			//RANDOM GENERA NUMEROS DESDE 0 HASTA EL NUMERO
-			//INDICADO ¡EXCLUIDO!
+			//INDICADO ¡EXCLUIDO!			//Para numeros del 1 al 10 seria: r.nextInt(11) + 1;
+			
 		}
 		
 		for(int item : numerosEnteros) {
